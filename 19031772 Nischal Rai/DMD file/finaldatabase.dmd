@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="finaldatabase" id="2BDEFD58-8CF2-2BC0-B07E-C32EFFB3C6A5" version="3.5">
+<createdBy>rnisc</createdBy>
+<createdTime>2022-03-07 18:48:33 UTC</createdTime>
+<ownerDesignName>finaldatabase</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2BDEFD58-8CF2-2BC0-B07E-C32EFFB3C6A5</designId>
+</OSDM_Design>

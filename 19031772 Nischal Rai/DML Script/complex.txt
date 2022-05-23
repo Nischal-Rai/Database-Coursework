@@ -1,0 +1,8 @@
+Teacher – Module Mapping Form
+select teacher_name, email, module_code, module_name, credit_hour from module_teacher join module using(module_code) join teacher using(teacher_id) where teacher_id=:teacher_id;
+
+Student Fee Payment Form
+select student_name, student_address, payment, payment_date from student_payment join student using(student_id) join payment using(payment_id) where student_id=:student_id;
+
+Student – Assignment Form
+select student_name, module_name, assignment_type, grade, status from student_details join student using(student_id) join module using(module_code) join assignment using(assignment_id) join grade using(grade) where student_id = 1;
